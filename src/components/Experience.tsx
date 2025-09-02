@@ -15,7 +15,9 @@ const Experience = () => {
         "Led development of microservices architecture serving 100K+ daily active users",
         "Implemented CI/CD pipelines reducing deployment time by 75%",
         "Mentored junior developers and conducted technical interviews",
-        "Architected cloud-native solutions on AWS with 99.9% uptime"
+        "Architected cloud-native solutions on AWS with 99.9% uptime",
+        "Created custom terraform modules for provision EKS, API-Gateway, S3, CloudFront, RDS, MSK, ETC",
+        "Implemented Policy as code and integrated it into Jenkins pipelines for terraform resource provisioning"
       ],
       technologies: ["Terraform", "Helm", "AWS", "Docker", "EKS", "AWS RDS","Jenkins","Git","AWS ECS", "AWS Lambda", "Python", "API Gateway", "S3", "CloudFormation","Route 53","WAF","ArgoCD"]
     },
