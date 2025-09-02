@@ -84,7 +84,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <motion.div
+      {/* <motion.div
         className="fixed left-1/2 bottom-8 -translate-x-1/2 flex flex-col items-center z-20"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
@@ -93,7 +93,7 @@ const Hero = () => {
           <span className="text-sm mb-2">Scroll to explore</span>
           <ChevronDownIcon className="w-6 h-6" />
         </a>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };

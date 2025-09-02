@@ -83,7 +83,7 @@ const About = () => {
                 variants={fadeInUp}
               >
                 <a
-                  href="/VincentTetteh-Resume.pdf"
+                  href="/Vincent-Tetteh-Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl"
