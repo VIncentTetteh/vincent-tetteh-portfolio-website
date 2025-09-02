@@ -8,49 +8,64 @@ const Experience = () => {
     {
       company: "Standard Chartered",
       position: "Senior DevOps Engineer",
-      duration: "April 2023 - Present",
+      duration: "Mar 2023 - Present",
       location: "Accra, Ghana",
       type: "Full-time",
       description: [
-        "Led development of microservices architecture serving 100K+ daily active users",
-        "Implemented CI/CD pipelines reducing deployment time by 75%",
-        "Mentored junior developers and conducted technical interviews",
-        "Architected cloud-native solutions on AWS with 99.9% uptime",
-        "Created custom terraform modules for provision EKS, API-Gateway, S3, CloudFront, RDS, MSK, ETC",
-        "Implemented Policy as code and integrated it into Jenkins pipelines for terraform resource provisioning"
+        "Led design and implementation of highly available AWS infrastructure, maintaining 99.9% uptime.",
+        "Automated infrastructure provisioning using Terraform, CloudFormation, Helm & AWS CDK, creating custom Terraform modules for reusable, secure, and compliant deployments, reducing environment setup time by 80%.",
+        "Built CI/CD pipelines with Jenkins and GitHub Actions, enabling secure, rapid deployments with zero-downtime rollouts.",
+        "Containerized and orchestrated microservices with Docker, EKS; used Helm, ArgoCD, and Terraform for seamless updates and rollbacks.",
+        "Established proactive monitoring and alerting using Datadog, CloudWatch, and Grafana; improved MTTR by 80%",
+        "Hardened cloud security posture and enforced PCI DSS, CIS, SOC2, and internal compliance protocols; designed backup and disaster recovery strategies, achieving 50% RTO improvement.",
+        "Automated operational tasks using Bash, Python, and TypeScript, saving 20+ hours/week.",
+        "Collaborated globally with engineering leads to optimize performance, reduce latency, and enhance the availability of distributed services.",
+        "Mentored junior engineers on DevOps best practices, IaC, and CI/CD strategies, improving team productivity and knowledge sharing.",
+        "Designed and maintained multi-account AWS environments with cross-account IAM roles, service control policies (SCPs), and resource tagging strategies.",
+        "Collaborated globally with engineering, QA, and security teams to optimize performance, reduce latency, and enhance the availability of distributed services.",
+        ""
+
       ],
       technologies: ["Terraform", "Helm", "AWS", "Docker", "EKS", "AWS RDS","Jenkins","Git","AWS ECS", "AWS Lambda", "Python", "API Gateway", "S3", "CloudFormation","Route 53","WAF","ArgoCD"]
     },
     {
       company: "Techieszon",
       position: "Senior Software Engineer / Cloud Solutions Architect / ML & MLOps Engineer",
-      duration: "Jan 2022 – Present",
+      duration: "Mar 2023 – Present",
       location: "Accra, Ghana",
       type: "Part-time",
       description: [
-        "Designed and deployed microservices (Python, C#, Golang, Java) on AWS, Azure, and GCP with CI/CD via GitHub Actions and Azure DevOps",
+        "Designed and deployed scalable microservices using Python, C#, Golang, and Java across AWS, Azure, and GCP, leveraging Docker, Kubernetes, and serverless architectures.",
+        "Collaborated with product and QA teams to design resilient, high-performance, and secure backend services, aligning technology solutions with business objectives.",
+        "Developed secure, high-performance REST and gRPC APIs for financial, e-commerce, and internal platforms, implementing authentication, authorization (JWT/OAuth2), rate limiting, and input validation.",
         "Built secure cloud-native applications meeting performance, security, and compliance requirements.",
         "Operated multi-cloud environments and guided cost-effective architecture decisions with 99.9% uptime SLAs",
         "Migrated legacy systems to AWS, reducing infrastructure costs by 15% and boosting scalability.",
         "Led mentoring efforts and code reviews across engineering teams; promoted best practices in DevOps and SRE.",
-        "Developed and deployed an ML-powered API for skin disease prediction using Scikit-Learn, FastAPI, Pandas, and Seaborn"
+        "Designed and deployed ML & MLOps pipelines for model training, evaluation, and deployment using SageMaker, Azure ML, and Vertex AI, automating model versioning and CI/CD for AI workloads.",
+        "Developed and deployed an ML-powered API for skin disease prediction using Scikit-Learn, FastAPI, Pandas, and Seaborn.",
+        "Led mentorship and knowledge-sharing initiatives, conducting code reviews, workshops, and best practice sessions in DevOps, SRE, and MLOps to upskill engineering teams.",
+        "Ensured compliance with PCI DSS, CIS, and internal security policies across applications and infrastructure, including data encryption, IAM, and auditing controls.",
+        "Implemented secure database integrations (PostgreSQL, MySQL, DynamoDB), caching strategies (Redis, ElastiCache), and async processing (SQS, Kafka) for robust API performance."
       ],
       technologies: ["AWS", "Terraform", "Jenkins", "Docker", "ELK Stack", "Python","Scikit-Learn","FastAPI","Pandas","Seaborn","Golang","Gin Framework","Springboot","C#",".Net Core","Java","ECS","MLflow","Github Actions"]
     },
     {
-      company: "Turntable",
+      company: "Turntabl",
       position: "DevOps Software Engineer III",
       duration: "Sep 2020 – Apr 2023",
       location: "Accra, Ghana",
       type: "Full-time",
       description: [
-        "Architected and maintained AWS infrastructure using Terraform and Helm; enabled 50% faster provisioning.",
+        "Delivered backend services and APIs in Java (Spring Boot), optimized for low latency, high throughput, and multi-tenant support.",
+        "Architected and maintained AWS infrastructure using Terraform, CloudFormation, and Helm, enabling 80% faster environment provisioning",
         "Created robust monitoring with Prometheus, Grafana, and Datadog; reduced incident downtime by 35%.",
-        "Deployed secure containerized microservices on EKS and built auto-scaling policies for high availability",
-        "Participated in agile development process and sprint planning",
-        "Automated repetitive workflows and operational tasks with Python and Bash",
-        "Delivered backend services in Java (Spring Boot), tuned for low latency and high throughput",
-        "Contributed to incident response and on-call rotations, improving resolution workflows and reducing system outage impact."
+        "Deployed secure containerized microservices on EKS and built auto-scaling policies for high availability.",
+        "Automated repetitive workflows and operational tasks with Python and Bash.",
+        "Automated operational workflows with Python, Bash, and TypeScript, including database optimizations for PostgreSQL and MySQL.",
+        "Contributed to incident response and on-call rotations, improving resolution workflows and reducing system outage impact.",
+        "Contributed to frontend integrations and internal tools, improving user experience and operational efficiency.",
+        "Containerized microservices on EKS, implemented Helm charts, CI/CD pipelines, and autoscaling policies for high availability"
       ],
       technologies: ["Java", "Spring Boot", "AWS", "Kubernetes", "Typescript", "Python","Docker","Helm","Scala","Jenkins"]
     }
