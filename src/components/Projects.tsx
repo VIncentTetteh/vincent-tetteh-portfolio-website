@@ -16,6 +16,15 @@ const Projects = () => {
     }
     ,
     {
+      "title": "gRPC + REST FastAPI CRUD Microservices",
+      "description": "A microservices architecture project demonstrating CRUD operations with FastAPI (REST) and gRPC for internal communication, backed by PostgreSQL. Includes service-to-service communication where the Todo Service validates users by calling the User Service via gRPC.",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
+      "technologies": ["Python", "FastAPI", "gRPC", "PostgreSQL", "Docker Compose"],
+      "liveUrl": "http://localhost:8000", 
+      "githubUrl": "https://github.com/VincentTetteh/grpc-fastapi-crud-microservices",
+      "featured": true
+    },
+    {
       title: "Terraform AWS Aurora Module",
       description: "A Terraform module for deploying PCI DSS and CIS-compliant Amazon Aurora and RDS clusters. Supports Aurora Serverless v2, traditional RDS instances, and provisioned Aurora clusters with flexible configuration for capacity, networking, and security. Designed to simplify database provisioning while ensuring scalability, high availability, and compliance.",
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
@@ -25,6 +34,16 @@ const Projects = () => {
       featured: true
     }
     ,
+    {
+      title: "End-to-End House Pricing Model",
+      description: "End-to-end FastAPI service integrating ML models for dynamic house price prediction, with automated training, inference API, and deployment pipelines to AWS.",
+      image: "https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?w=600&h=400&fit=crop",
+      technologies: ["Python", "FastAPI", "Machine Learning", "AWS ECS", "GitHub Actions"],
+      liveUrl: "https://registry.terraform.io",
+      githubUrl: "https://github.com/VIncentTetteh/end-to-end-house-pricing-model",
+      featured: true
+    },
+    
     {
       title: "Terraform AWS CloudFront Module",
       description: "A Terraform module for deploying PCI DSS and CIS-compliant CloudFront distributions optimized for hosting Angular applications on S3. Features include Origin Access Identity (OAI) for securing S3, automatic HTTP to HTTPS redirection, fine-grained caching policies, and geo-restriction support. Built for performance, scalability, and security in production environments.",
@@ -352,15 +371,7 @@ const Projects = () => {
       githubUrl: "https://github.com/VIncentTetteh/clientApi",
       featured: false
     },
-    {
-      title: "End-to-End House Pricing Model",
-      description: "End-to-end FastAPI service integrating ML models for dynamic house price prediction, with automated training, inference API, and deployment pipelines to AWS.",
-      image: "https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?w=600&h=400&fit=crop",
-      technologies: ["Python", "FastAPI", "Machine Learning", "AWS ECS", "GitHub Actions"],
-      liveUrl: "https://registry.terraform.io",
-      githubUrl: "https://github.com/VIncentTetteh/end-to-end-house-pricing-model",
-      featured: true
-    },
+    
     {
       title: "Transaction Analytics API",
       description: "Scalable analytics API built with FastAPI for real-time transaction monitoring, anomaly detection, and secure data insights. Deployed on AWS ECS with GitHub Actions CI/CD.",
@@ -460,6 +471,7 @@ const Projects = () => {
       githubUrl: "https://github.com/VIncentTetteh/vincent-tetteh-portfolio-website",
       featured: true
     },
+
     {
       title: "Npuntu Website",
       description: "Official website for Npuntu, delivering information, updates, and digital presence with a clean, responsive TypeScript frontend.",
